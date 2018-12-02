@@ -1,0 +1,8 @@
+---
+applications:
+- name: egg_destroy
+  memory: 250M
+  instances: 1
+  buildpack: python_buildpack
+  services:
+  - egg
